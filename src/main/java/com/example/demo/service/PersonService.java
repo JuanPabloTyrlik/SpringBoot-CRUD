@@ -16,7 +16,7 @@ public class PersonService {
     private IPersonDAO personDAO;
 
     @Autowired
-    public PersonService(@Qualifier("fakeDAO") IPersonDAO personDAO) {
+    public PersonService(@Qualifier("H2") IPersonDAO personDAO) {
         this.personDAO = personDAO;
     }
 
