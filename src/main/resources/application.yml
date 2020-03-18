@@ -1,0 +1,6 @@
+app:
+  datasource:
+    jdbc-url: jdbc:h2:~/spring-boot
+    username: Spring
+    password:
+    pool-size: 30
